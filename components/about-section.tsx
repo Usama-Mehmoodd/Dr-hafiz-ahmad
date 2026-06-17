@@ -1,6 +1,8 @@
 import { GraduationCap, Stethoscope, Award } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
+
+// This component represents the "About Me" section of a personal or professional website. It provides information about Dr. Hafiz Ahmad Khalid, highlighting his background, experience, and expertise in the field of Anesthesia. The section is structured with a heading, descriptive paragraphs, and a grid layout that includes cards showcasing his education, current role, and areas of expertise. The design uses Tailwind CSS classes for styling and layout.
 export function AboutSection() {
   return (
     <section id="about" className="py-16 md:py-24 bg-card">
