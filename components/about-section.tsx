@@ -15,7 +15,7 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I am Dr. Hafiz Ahmad Khalid, a dedicated Professor of Anesthesia with extensive experience 
+              I am Dr. Hafiz Ahmad Khalid, a dedicated Anesthesialogist with extensive experience 
               in clinical practice and academic medicine. My journey in medicine has been driven by a 
               passion for patient care and a commitment to nurturing the next generation of medical 
               professionals.
@@ -56,7 +56,7 @@ export function AboutSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Current Role</h3>
-                    <p className="text-muted-foreground">Professor Doctor of Anesthesia</p>
+                    <p className="text-muted-foreground">Doctor of Anesthesia</p>
                     <p className="text-sm text-muted-foreground/80 mt-1">Academic teaching & clinical practice</p>
                   </div>
                 </div>
