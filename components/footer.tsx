@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Mail, Phone } from "lucide-react"
 import {
   FaLinkedinIn,
-  FaXTwitter,
+  FaTwitter,
   FaInstagram,
   FaWhatsapp,
   FaFacebookF,
@@ -20,7 +20,7 @@ export function Footer() {
     },
     {
       name: "X",
-      icon: FaXTwitter,
+      icon: FaTwitter,
       href: "https://x.com/drhafizkhalid",
     },
     {
@@ -201,16 +201,12 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-background/15">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col justify-center md:flex-row items-center gap-4">
             <p className="text-sm text-background/60 text-center md:text-left">
               © {currentYear} Dr. Hafiz Ahmad Khalid.
               All rights reserved.
             </p>
 
-            <p className="text-xs text-background/40 text-center md:text-right">
-              Designed with precision, compassion, and commitment
-              to healthcare excellence.
-            </p>
           </div>
         </div>
       </div>
