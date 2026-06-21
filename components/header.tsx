@@ -20,7 +20,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const handleResumeClick = () => {
-    window.open(RESUME_PATH, "_blank", "noopener,noreferrer")
+    // window.open(RESUME_PATH, "_blank", "noopener,noreferrer")
 
     const downloadLink = document.createElement("a")
     downloadLink.href = RESUME_PATH
@@ -29,6 +29,12 @@ export function Header() {
     document.body.appendChild(downloadLink)
     downloadLink.click()
     document.body.removeChild(downloadLink)
+
+    setTimeout(() => {
+      window.open(RESUME_PATH, "_blank", "noopener,noreferrer");
+    }, 500); 
+
+
   }
 
   return (
@@ -50,7 +56,7 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <Button size="sm" type="button" onClick={handleResumeClick}>
+            <Button size="sm" type="button" onClick={()=>handleResumeClick()}>
                 Download Resume
             </Button>
           </div>
@@ -79,7 +85,7 @@ export function Header() {
                   {item.label}
                 </Link>
               ))}
-              <Button size="sm" className="w-fit" type="button" onClick={handleResumeClick}>
+              <Button size="sm" className="w-fit" type="button" onClick={() => handleResumeClick()}>
                   Download Resume
               </Button>
             </div>

@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Dr. Hafiz Ahmad Khalid | Professor of Anesthesia',
-  description: 'Professional website of Dr. Hafiz Ahmad Khalid - Professor of Anesthesia. Offering consultancy, education, career guidance, and research support for medical professionals and students.',
-  keywords: ['anesthesia', 'professor', 'medical consultant', 'research support', 'thesis guidance', 'Lahore', 'Pakistan'],
+  title: 'Dr. Hafiz Ahmad Khalid | Anesthesialogist',
+  description: 'Professional website of Dr. Hafiz Ahmad Khalid - Anesthesialogist. Offering consultancy, education, career guidance, and research support for medical professionals and students.',
+  keywords: ['anesthesia', 'medical consultant', 'research support', 'thesis guidance', 'Lahore', 'Pakistan'],
   authors: [{ name: 'Dr. Hafiz Ahmad Khalid' }],
   icons: {
     icon: [
