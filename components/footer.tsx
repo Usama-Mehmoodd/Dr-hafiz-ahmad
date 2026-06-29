@@ -16,7 +16,7 @@ export function Footer() {
     {
       name: "LinkedIn",
       icon: FaLinkedinIn,
-      href: "https://linkedin.com/in/drhafizkhalid",
+      href: "https://www.linkedin.com/in/dr-hafiz-ahmad-khalid-454bb2324/",
     },
     {
       name: "X",
@@ -26,7 +26,7 @@ export function Footer() {
     {
       name: "Instagram",
       icon: FaInstagram,
-      href: "https://instagram.com/drhafizkhalid",
+      href: "https://www.instagram.com/ahmad_malik_3?igsh=MTdoejlrM2JmenVxeg==",
     },
     {
       name: "WhatsApp",
@@ -36,7 +36,7 @@ export function Footer() {
     {
       name: "Facebook",
       icon: FaFacebookF,
-      href: "https://facebook.com/drhafizkhalid",
+      href: "https://www.facebook.com/share/1cJiZZkadZ/",
     },
   ]
 
